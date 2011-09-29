@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
 using SlashRoll.DataModel;
-using SlashRoll.Services.Contracts;
 using SlashRoll.Services.HelperObjects;
+using SlashRoll.Services.ServiceContracts;
 
-namespace SlashRoll.Services.Implementations
+namespace SlashRoll.Services
 {
     public class Roll : IRoll
     {

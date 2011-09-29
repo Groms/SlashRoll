@@ -33,7 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Web.DynamicData" />
@@ -55,7 +57,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Implementations\Roll.svc" />
+    <Content Include="Roll.svc" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -65,11 +67,11 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HelperObjects\Die.svc.cs" />
-    <Compile Include="Implementations\Roll.svc.cs">
+    <Compile Include="DataContracts\Die.cs" />
+    <Compile Include="Roll.svc.cs">
       <DependentUpon>Roll.svc</DependentUpon>
     </Compile>
-    <Compile Include="Contracts\IRoll.cs" />
+    <Compile Include="ServiceContracts\IRoll.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
