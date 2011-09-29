@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0696e261-5b21-478e-a555-3b76c5e873fd" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://api.steelflow.net.strawberry.arvixe.com/SlashRoll/Roll.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Roll.wsdl" MetadataType="Wsdl" ID="4cd5c0f7-aedd-4ade-91f5-85e864b6551e" SourceId="1" SourceUrl="http://api.steelflow.net.strawberry.arvixe.com/SlashRoll/Roll.svc?wsdl" />
+    <MetadataFile FileName="Roll.xsd" MetadataType="Schema" ID="be25c188-86e8-4707-9896-a5d5d7994ac9" SourceId="1" SourceUrl="http://api.steelflow.net.strawberry.arvixe.com/SlashRoll/Roll.svc?xsd=xsd0" />
+    <MetadataFile FileName="Roll1.xsd" MetadataType="Schema" ID="adfb9a4a-a61e-4f5e-98a7-648bec0c5e70" SourceId="1" SourceUrl="http://api.steelflow.net.strawberry.arvixe.com/SlashRoll/Roll.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
